@@ -1,0 +1,10 @@
+[project]
+name = "timetrack-mcp-server"
+version = "0.1.0"
+description = "TimeTrack MCP server: log and query billable hours"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=4.0.3",
+    "anthropic",
+]
